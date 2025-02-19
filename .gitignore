@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -20,4 +20,11 @@
 .history
 .ionide
 
+doc/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# Ignoring the SQLite database file
+*.db
+
+# macOS에서 폴더의 뷰 설정 등 정보를 저장하기 위해 자동으로 생성되는 파일
+.DS_Store
